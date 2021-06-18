@@ -13,7 +13,7 @@ const HomeScreen = () => {
       </View>
       <View style={{ flex: 3, backgroundColor: "darkorange" }} />
       <View style={{ flex: 2}} >
-        <Text>Social Icons</Text>  
+        <Text>Development Icons</Text>  
       </View>
     </View>
   );
