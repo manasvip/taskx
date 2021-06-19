@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
 import RNBootSplash from "react-native-bootsplash";
 
 import HomeScreen from './screens/HomeScreen';
+import RNBootSplash from 'react-native-bootsplash';
 
 const App = () => {
 
