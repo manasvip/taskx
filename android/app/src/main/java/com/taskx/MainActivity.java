@@ -1,6 +1,9 @@
 package com.taskx;
 
+import android.os.Bundle;
+
 import com.facebook.react.ReactActivity;
+import com.zoontek.rnbootsplash.RNBootSplash;
 
 public class MainActivity extends ReactActivity {
 
@@ -10,6 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
+    RNBootSplash.init(R.drawable.bootsplash, MainActivity.this);
     return "taskx";
   }
 }
